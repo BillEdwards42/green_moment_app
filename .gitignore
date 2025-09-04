@@ -50,3 +50,6 @@ app.*.map.json
 
 # Local configuration
 /android/local.properties
+
+# Firebase / Google Services
+/android/app/google-services.json
