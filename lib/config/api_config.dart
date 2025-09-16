@@ -5,7 +5,7 @@ class ApiConfig {
   
   // For physical device on same network (your computer's actual IP)
   // Update this with your computer's current IP address
-  static const String localNetworkUrl = 'http://192.168.0.199:8000/api/v1';
+    static const String localNetworkUrl = 'http://192.168.0.100:8000/api/v1';
   
   // Alternative emulator URLs to try
   static const String alternativeEmulatorUrl = 'http://127.0.0.1:8000/api/v1';

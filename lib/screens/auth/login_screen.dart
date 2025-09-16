@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import '../../constants/app_colors.dart';
 import '../../services/auth_service.dart';
@@ -30,8 +31,6 @@ class _LoginScreenState extends State<LoginScreen> {
       print('🔵 DEBUG: Creating GoogleSignIn with scopes: [email]');
       final GoogleSignIn googleSignIn = GoogleSignIn(
         scopes: ['email'],
-        // For Android, we need to specify the Web Client ID for server auth
-        clientId: '599763967070-1jqsh9uao7n6imo0sladsv9bm4q19dpu.apps.googleusercontent.com',
       );
       
       print('🔵 DEBUG: GoogleSignIn initialized');

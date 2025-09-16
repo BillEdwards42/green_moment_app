@@ -6,7 +6,7 @@ class NetworkTestService {
   static Future<void> testConnectivity() async {
     final endpoints = [
       'http://10.0.2.2:8000/api/v1/auth/google',
-      'http://192.168.0.199:8000/api/v1/auth/google', // Your actual IP
+      'http://192.168.0.100:8000/api/v1/auth/google', // Your actual IP
       'http://127.0.0.1:8000/api/v1/auth/google',
       'https://httpbin.org/get', // External test to verify internet works
     ];
